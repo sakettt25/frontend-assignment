@@ -11,8 +11,6 @@
 
 ---
 
-<!-- Replace the path below with your actual screenshot or demo GIF -->
-![Calendar Preview](public/header-image.png)
 
 ---
 
@@ -69,16 +67,11 @@ Next.js allowed me to focus entirely on the UI and component logic without wirin
 - **Wall Texture Background** — CSS `feTurbulence` SVG noise overlay for a realistic wall effect
 
 ---
-## Take a Closer Look
 
-![Component Structure](public/results.png)
 
 A polished, fully interactive **wall calendar web application** is built by combining several sub-components and wiring them together to make the code maintanable and easy to be used as a complete component in other projects as well. The states are managed in seperate hooks and each component has its own functionality, to ensure, whenever a change is required, it can be easily achieved in a simplified fashion by navigating to the required sub-component where the change is needed. Each discrete part of the calendar component has its own sub-components whose architechture is mentioned below.
 
 
-## Component Architecture
-
-![Component Structure](public/closer-look.png)
 
 ### `CalendarPage.jsx`
 The root orchestrator. Owns no business state — all state lives in `useCalendarState()`. Its only responsibilities are pulling state slices from the hook, wiring child events to state actions, managing the modal open/close lifecycle, and applying flip-animation CSS classes to the wrapper div.
@@ -128,9 +121,7 @@ A drop-in replacement for `useState` that persists state to `localStorage`. Hand
 
 ---
 
-## Responsive Design
 
-![Fully Responsive](public/responsive.png)
 
 The component is built using a mobile-first approach and special care has been taken in making it responsive across different types of devices. The responsiveness is handled using custom css classes that are created in the `globals.css`, which handles the size and positioning of different components in the calendar across different devices
 
