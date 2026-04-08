@@ -11,23 +11,6 @@
 
 ---
 
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Why Next.js over React?](#why-nextjs-over-react)
-- [Features](#features)
-- [Component Architecture](#component-architecture)
-- [Hooks](#hooks)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
-- [Design Decisions](#design-decisions)
-
----
-
 ## Overview
 
 A polished, fully interactive **wall calendar web application** built as a frontend engineering challenge. It faithfully replicates the aesthetic of a physical wall calendar — complete with spiral binding, hero photography per month, wave dividers, date range selection, monthly notes, per-day notes modal, holiday markers, and smooth page-flip animations.
