@@ -5,7 +5,7 @@
 
 # Wall Calendar 2026 — Interactive Calendar Frontend
 
-*Frontend Engineering Challenge — TakeUforward Internship Task*
+*Frontend Engineering Challenge — TakeUforward Internship Task* - SAKET SAURAV
 
 </div>
 
@@ -127,7 +127,7 @@ The component is built using a mobile-first approach and special care has been t
 
 Eg: In laptops/larger screens, the `CalendarGrid.jsx` and `NotesPanel.jsx` are viewed side-by-side, since, there is enough space. In mobiles/smaller screens, the same is viewed in a stacked fashion(one atop another) to maintain responsiveness and complete viewport of the calendar component.
 
-> Live Demo: [my-calendar-teal.vercel.app](https://my-calendar-teal.vercel.app/)
+> Live Demo: [my-calendar-teal.vercel.app](https://tuf-calendar-nu.vercel.app/)
 
 ---
 
